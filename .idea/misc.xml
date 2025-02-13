@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Services/config_server/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/APIGateway/pom.xml" />
       </list>
     </option>
   </component>
