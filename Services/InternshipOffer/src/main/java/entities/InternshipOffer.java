@@ -3,10 +3,17 @@ package entities;
 import enums.OfferStatus;
 import enums.WorkMode;
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.io.Serializable;
 import java.util.Date;
 
+@Entity
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class InternshipOffer implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
