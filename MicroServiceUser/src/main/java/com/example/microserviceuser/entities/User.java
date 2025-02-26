@@ -1,7 +1,7 @@
-package com.microservices.entities;
+package com.example.microserviceuser.entities;
 
 import jakarta.persistence.*;
-import lombok.*;
+
 @Entity
 
 public class User {
@@ -125,3 +125,4 @@ public class User {
     this.studentClass = studentClass;
   }
 }
+

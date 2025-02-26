@@ -1,13 +1,12 @@
-package com.microservices.restController;
+package com.example.microserviceuser.restController;
 
 
 
-import com.microservices.dto.UserLoginDto;
-import com.microservices.dto.UserRegisterDto;
-import com.microservices.entities.User;
-import com.microservices.security.JwtTokenProvider;
-import com.microservices.services.IUserService;
-import com.microservices.services.UserService;
+import com.example.microserviceuser.dto.UserLoginDto;
+import com.example.microserviceuser.dto.UserRegisterDto;
+import com.example.microserviceuser.entities.User;
+import com.example.microserviceuser.security.JwtTokenProvider;
+import com.example.microserviceuser.services.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:4200") // Allow requests from Angular app
+@CrossOrigin(origins = "*") // Allow requests from Angular app
 
 public class AuthController {
 
@@ -45,7 +44,7 @@ public class AuthController {
         return ResponseEntity.ok(Map.of(
           "message", "Login successful",
           "token", token,
-           "user", user
+          "user", user
         ));
       })
       .orElse(ResponseEntity.badRequest().body(Map.of("error", "Invalid email or password")));

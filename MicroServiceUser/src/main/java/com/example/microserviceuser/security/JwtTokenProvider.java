@@ -1,13 +1,9 @@
-package com.microservices.security;
+package com.example.microserviceuser.security;
 
-
-import com.microservices.entities.User;
-import com.microservices.entities.UserRole;
-import com.microservices.repositories.UserRepository;
-import io.jsonwebtoken.Claims;
+ import com.example.microserviceuser.entities.UserRole;
+ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
@@ -70,7 +66,7 @@ public class JwtTokenProvider {
       // Ou, pour un comportement sans exception, retourner une liste vide ou un rôle générique
       // return Collections.emptyList();
     }
-System.out.println(roles);
+    System.out.println(roles);
     // Si des rôles sont présents, les retourner comme une liste de SimpleGrantedAuthority
     return roles.stream()
       .map(role -> new SimpleGrantedAuthority("ROLE_" + role))

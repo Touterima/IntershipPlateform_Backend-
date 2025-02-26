@@ -1,4 +1,5 @@
-package com.microservices.entities;
+package com.example.microserviceuser.entities;
+
 
 public enum UserRole {
   SUPERVISION,

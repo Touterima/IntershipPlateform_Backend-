@@ -1,6 +1,6 @@
-package com.microservices.dto;
+package com.example.microserviceuser.dto;
 
-public class UserLoginDto {
+ public class UserLoginDto {
   private String email;
   private String password;
 

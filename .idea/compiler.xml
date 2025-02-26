@@ -9,17 +9,19 @@
         <module name="ApiGateway" />
         <module name="Eureka_Server" />
       </profile>
-      <profile name="Annotation profile for Application-MS" enabled="true">
+      <profile name="Annotation profile for User-MS" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
         </processorPath>
-        <module name="application-ms" />
+        <module name="user-ms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="application-ms (1)" target="17" />
+      <module name="application-ms (2)" target="17" />
       <module name="microservices" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -28,7 +30,10 @@
       <module name="ApiGateway" options="-parameters" />
       <module name="Eureka_Server" options="-parameters" />
       <module name="application-ms" options="-parameters" />
+      <module name="application-ms (1)" options="-parameters" />
+      <module name="application-ms (2)" options="-parameters" />
       <module name="microservices" options="-parameters" />
+      <module name="user-ms" options="-parameters" />
     </option>
   </component>
 </project>

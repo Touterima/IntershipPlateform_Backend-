@@ -1,5 +1,7 @@
-package com.microservices.security;
+package com.example.microserviceuser.security;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -12,9 +14,13 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableWebSecurity
 public class SecurityConfig {
 
-  private final CustomUserDetailsService userDetailsService;
-  private final JwtTokenProvider jwtTokenProvider;
 
+
+  @Autowired
+  private final CustomUserDetailsService userDetailsService;
+  @Autowired
+  private final JwtTokenProvider jwtTokenProvider;
+  @Autowired
   public SecurityConfig(CustomUserDetailsService userDetailsService, JwtTokenProvider jwtTokenProvider) {
     this.userDetailsService = userDetailsService;
     this.jwtTokenProvider = jwtTokenProvider;

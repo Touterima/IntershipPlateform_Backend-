@@ -1,9 +1,7 @@
-package com.microservices.security;
-
-
-import com.microservices.entities.User;
-import com.microservices.repositories.UserRepository;
-import org.springframework.security.core.userdetails.UserDetails;
+package com.example.microserviceuser.security;
+ import com.example.microserviceuser.entities.User;
+ import com.example.microserviceuser.repositories.UserRepository;
+ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

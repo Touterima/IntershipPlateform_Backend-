@@ -1,6 +1,7 @@
-package com.microservices.dto;
+package com.example.microserviceuser.dto;
 
 
+import com.example.microserviceuser.entities.UserRole;
 
 public class UserRegisterDto {
   private String email;
@@ -9,6 +10,7 @@ public class UserRegisterDto {
   private String lastName;
   private String phoneNumber;
   private String studentClass;
+  private UserRole role;
 
   public String getEmail() {
     return email;
@@ -56,5 +58,14 @@ public class UserRegisterDto {
 
   public void setStudentClass(String studentClass) {
     this.studentClass = studentClass;
+  }
+
+
+  public UserRole getRole() {
+    return role;
+  }
+
+  public void setRole(UserRole role) {
+    this.role = role;
   }
 }
