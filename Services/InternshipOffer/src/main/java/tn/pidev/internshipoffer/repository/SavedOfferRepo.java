@@ -1,6 +1,6 @@
-package repository;
+package tn.pidev.internshipoffer.repository;
 
-import entities.SavedOffer;
+import tn.pidev.internshipoffer.entities.SavedOffer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

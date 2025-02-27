@@ -1,4 +1,4 @@
-package entities;
+package tn.pidev.internshipoffer.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

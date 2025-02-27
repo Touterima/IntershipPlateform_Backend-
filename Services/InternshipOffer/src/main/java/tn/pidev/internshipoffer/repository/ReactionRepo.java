@@ -1,7 +1,7 @@
-package repository;
+package tn.pidev.internshipoffer.repository;
 
-import entities.Reaction;
-import enums.ReactionType;
+import tn.pidev.internshipoffer.entities.Reaction;
+import tn.pidev.internshipoffer.enums.ReactionType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

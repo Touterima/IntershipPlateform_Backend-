@@ -1,6 +1,6 @@
-package entities;
+package tn.pidev.internshipoffer.entities;
 
-import enums.ReactionType;
+import tn.pidev.internshipoffer.enums.ReactionType;
 import jakarta.persistence.*;
 import lombok.*;
 

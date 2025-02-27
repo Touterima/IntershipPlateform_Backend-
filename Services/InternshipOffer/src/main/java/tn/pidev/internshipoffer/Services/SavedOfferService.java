@@ -1,11 +1,11 @@
-package Services;
+package tn.pidev.internshipoffer.Services;
 
-import Services.IServices.ISavedOfferService;
-import entities.SavedOffer;
+import tn.pidev.internshipoffer.Services.IServices.ISavedOfferService;
+import tn.pidev.internshipoffer.entities.SavedOffer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import repository.SavedOfferRepo;
+import tn.pidev.internshipoffer.repository.SavedOfferRepo;
 
 import java.util.List;
 import java.util.Optional;

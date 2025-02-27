@@ -1,6 +1,6 @@
-package Services;
+package tn.pidev.internshipoffer.Services;
 
-import Services.IServices.IOfferService;
+import tn.pidev.internshipoffer.Services.IServices.IOfferService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

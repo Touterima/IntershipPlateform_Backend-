@@ -1,6 +1,6 @@
-package Services.IServices;
+package tn.pidev.internshipoffer.Services.IServices;
 
-import entities.SavedOffer;
+import tn.pidev.internshipoffer.entities.SavedOffer;
 
 import java.util.List;
 

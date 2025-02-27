@@ -1,7 +1,7 @@
-package entities;
+package tn.pidev.internshipoffer.entities;
 
-import enums.OfferStatus;
-import enums.WorkMode;
+import tn.pidev.internshipoffer.enums.OfferStatus;
+import tn.pidev.internshipoffer.enums.WorkMode;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -19,7 +19,8 @@ public class InternshipOffer implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    private String titreOffre;
+    private String title;
+    private String EntrepriseName; // à voir
     private String adresseOffre;
     private String description;
     @Temporal(TemporalType.DATE)

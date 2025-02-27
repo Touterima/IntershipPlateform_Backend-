@@ -1,12 +1,12 @@
-package Services;
+package tn.pidev.internshipoffer.Services;
 
-import Services.IServices.IReactionService;
-import entities.Reaction;
-import enums.ReactionType;
+import tn.pidev.internshipoffer.Services.IServices.IReactionService;
+import tn.pidev.internshipoffer.entities.Reaction;
+import tn.pidev.internshipoffer.enums.ReactionType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import repository.ReactionRepo;
+import tn.pidev.internshipoffer.repository.ReactionRepo;
 //import entities.Reaction.reactionType;
 
 
@@ -15,7 +15,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Service
 @Slf4j
-public class ReactionServices implements IReactionService {
+public class ReactionService implements IReactionService {
     private final ReactionRepo reactionRepository;
 
     public void likeOrDislike(Long userId, Long offreId, ReactionType reactionType) {
