@@ -1,6 +1,6 @@
 # Intelligent Internship Management Platform
 
-This project, developed as part of the **PIDev (Projet Intégré)** course at **ESPRIT University**, aims to provide a comprehensive platform for managing internships. The platform connects **students**, **university**, and **companies** in a streamlined way to improve the internship application process.
+This project, developed as part of the **PIDev (Projet Intégré)** course at **Esprit School of Engineering**, aims to provide a comprehensive platform for managing internships. The platform connects **students**, **university**, and **companies** in a streamlined way to improve the internship application process.
 
 **For Students**: The platform allows students to create and manage their profiles, apply for internships based on their skills and interests, and track the status of their applications.
 
