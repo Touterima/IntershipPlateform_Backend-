@@ -37,16 +37,16 @@ The backend is organized into multiple **microservices**, each responsible for a
 
 
 ## Directory Structure
-- `frontend/`: Contains Angular code for the frontend application.
-- `backend/`: Contains Spring Boot code for the backend API and services.
+- `IntershipPlateform_Frontend`: Contains Angular code for the frontend application.
+- `IntershipPlateform_Backend-`: Contains Spring Boot code for the backend API and services.
 
 ## Getting Started
 To get started, clone both the frontend and backend repositories and follow the instructions to run each part of the application:
 
 1. Clone the repositories:
 ```bash
-git clone [https://github.com/Touterima/IntershipPlateform_Frontendo.git](https://github.com/Touterima/IntershipPlateform_Frontend)
-git clone [https://github.com/Touterima/IntershipPlateform_Backend-.git](https://github.com/Touterima/IntershipPlateform_Backend-)
+git clone https://github.com/Touterima/IntershipPlateform_Frontend
+git clone https://github.com/Touterima/IntershipPlateform_Backend-
 
 2. For the frontend, navigate to the frontend folder and install dependencies:
 npm install
