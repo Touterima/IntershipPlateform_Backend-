@@ -5,10 +5,25 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Services/config_server/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/APIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/OffreStage/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/OffreDeStage/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/InternshipOffer/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Services/OffreDeStage/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/OffreStage/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>
